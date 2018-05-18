@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+import os
+"""
+Description:
+    config for the master.py
+"""
+# input, output setup
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+INPUT_PATH = BASE_DIR + '/src/input/top_100_input.csv'
+OUTPUT_PATH = BASE_DIR + "/src/output/top_100_output.csv"
+INPUT_PATH_POS = BASE_DIR + "/src/output/pos_news_titles.txt"
+INPUT_PATH_NEG = BASE_DIR + "/src/output/neg_news_titles.txt"
