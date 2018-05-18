@@ -1,6 +1,6 @@
 # Reddit Analyzer
 
-Analyzes comments from given subreddits on reddit.com
+Analyzes comments from given subreddits on reddit.com scraped with https://github.com/wyattshapiro/reddit_scraper
 
 
 ## License
@@ -87,3 +87,8 @@ File with following fields, ordered in this way:
 
 1. Sentiment does not account for a scenario where the post was negative and the comment was positive because it affirmed the negative sentiment
 2. Need the exact order of inputs and all the fields for script to work
+
+
+## Credits
+
+I found the sentiment analysis writing to .txt code from a github repo that I now cannot find :(
